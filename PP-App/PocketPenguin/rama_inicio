@@ -1,0 +1,133 @@
+diff --cc PP-App/.idea/inspectionProfiles/Project_Default.xml
+index 920d523,72e8dac..0000000
+--- a/PP-App/.idea/inspectionProfiles/Project_Default.xml
++++ b/PP-App/.idea/inspectionProfiles/Project_Default.xml
+@@@ -1,10 -1,44 +1,51 @@@
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+++<<<<<<< HEAD
+ +    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+ +      <option name="ignoredErrors">
+ +        <list>
+ +          <option value="N803" />
+++=======
++     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
++       <option name="ignoredPackages">
++         <value>
++           <list size="3">
++             <item index="0" class="java.lang.String" itemvalue="GitPython" />
++             <item index="1" class="java.lang.String" itemvalue="Django" />
++             <item index="2" class="java.lang.String" itemvalue="requests" />
++           </list>
++         </value>
++       </option>
++     </inspection_tool>
++     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++       <option name="ignoredErrors">
++         <list>
++           <option value="E305" />
++           <option value="E231" />
++           <option value="E111" />
++           <option value="E302" />
++           <option value="W292" />
++           <option value="E501" />
++           <option value="E301" />
++           <option value="E303" />
++         </list>
++       </option>
++     </inspection_tool>
++     <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++       <option name="ignoredErrors">
++         <list>
++           <option value="N806" />
++           <option value="N803" />
++           <option value="N802" />
++         </list>
++       </option>
++     </inspection_tool>
++     <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++       <option name="ignoredNames">
++         <list>
++           <option value="list" />
+++>>>>>>> rama_inicio
+          </list>
+        </option>
+      </inspection_tool>
+diff --cc PP-App/.idea/misc.xml
+index a971a2c,f7270e8..0000000
+--- a/PP-App/.idea/misc.xml
++++ b/PP-App/.idea/misc.xml
+@@@ -1,4 -1,4 +1,8 @@@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <project version="4">
+++<<<<<<< HEAD
+ +  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+++=======
++   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (2)" project-jdk-type="Python SDK" />
+++>>>>>>> rama_inicio
+  </project>
+diff --cc PP-App/.idea/workspace.xml
+index 5091b3f,314dcd1..0000000
+--- a/PP-App/.idea/workspace.xml
++++ b/PP-App/.idea/workspace.xml
+@@@ -1,7 -1,7 +1,11 @@@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <project version="4">
+    <component name="ChangeListManager">
+++<<<<<<< HEAD
+ +    <list default="true" id="27f25b0b-466c-4efd-9e50-897653983804" name="Changes" comment="" />
+++=======
++     <list default="true" id="b07c44ce-840a-4074-aa62-20ad3336f925" name="Changes" comment="" />
+++>>>>>>> rama_inicio
+      <option name="SHOW_DIALOG" value="false" />
+      <option name="HIGHLIGHT_CONFLICTS" value="true" />
+      <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@@ -11,9 -11,9 +15,15 @@@
+      <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    </component>
+    <component name="ProjectColorInfo"><![CDATA[{
+++<<<<<<< HEAD
+ +  "associatedIndex": 3
+ +}]]></component>
+ +  <component name="ProjectId" id="2bRd86o5jLWNUDR0kNSnjYaujHS" />
+++=======
++   "associatedIndex": 0
++ }]]></component>
++   <component name="ProjectId" id="2b7c6m5MPOmbCrHdn6smDps0hci" />
+++>>>>>>> rama_inicio
+    <component name="ProjectViewState">
+      <option name="hideEmptyMiddlePackages" value="true" />
+      <option name="showLibraryContents" value="true" />
+@@@ -22,18 -22,18 +32,31 @@@
+    "keyToString": {
+      "RunOnceActivity.OpenProjectViewOnStart": "true",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+++<<<<<<< HEAD
+ +    "git-widget-placeholder": "pantallafamilia",
+ +    "last_opened_file_path": "C:/Users/Alumno/pp-frontend"
+++=======
++     "git-widget-placeholder": "rama__inicio",
++     "last_opened_file_path": "C:/Users/carme/ad/pp-frontend/PP-App/PocketPenguin"
+++>>>>>>> rama_inicio
+    }
+  }]]></component>
+    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+    <component name="TaskManager">
+      <task active="true" id="Default" summary="Default task">
+++<<<<<<< HEAD
+ +      <changelist id="27f25b0b-466c-4efd-9e50-897653983804" name="Changes" comment="" />
+ +      <created>1706181662508</created>
+ +      <option name="number" value="Default" />
+ +      <option name="presentableId" value="Default" />
+ +      <updated>1706181662508</updated>
+++=======
++       <changelist id="b07c44ce-840a-4074-aa62-20ad3336f925" name="Changes" comment="" />
++       <created>1705569385040</created>
++       <option name="number" value="Default" />
++       <option name="presentableId" value="Default" />
++       <updated>1705569385040</updated>
+++>>>>>>> rama_inicio
+      </task>
+      <servers />
+    </component>

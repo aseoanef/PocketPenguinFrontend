@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/currentProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/default_profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/newPhotoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Nueva foto de perfil:"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentProfileImage" />
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="214dp"
+        android:layout_height="28dp"
+        android:text="Usuario"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/currentProfileImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/currentProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/currentProfileImage"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <ImageView
+        android:id="@+id/newProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="showImageSelectionDialog"
+        android:src="@drawable/default_profile_image"
+        app:layout_constraintEnd_toEndOf="@+id/newPhotoLabel"
+        app:layout_constraintStart_toStartOf="@+id/newPhotoLabel"
+        app:layout_constraintTop_toBottomOf="@+id/newPhotoLabel" />
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="140dp"
+        android:text="Aceptar"
+        app:layout_constraintEnd_toEndOf="@+id/newProfileImage"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/newProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/newProfileImage" />
+
+    <TextView
+        android:id="@+id/newUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Nuevo nombre de usuario:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/currentProfileImage"
+        app:layout_constraintTop_toBottomOf="@+id/acceptButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="243dp"
+        android:layout_height="43dp"
+        android:fontFamily="serif"
+        android:text="EDITAR PERFIL"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <EditText
+        android:id="@+id/newUsernameEditText"
+        android:layout_width="315dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:hint="Ingrese el nuevo nombre de usuario"
+        app:layout_constraintStart_toStartOf="@+id/newUsernameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/newUsernameLabel" />
+
+    <!-- Botón para enviar el nuevo nombre de usuario -->
+    <Button
+        android:id="@+id/submitUsernameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enviar"
+        app:layout_constraintStart_toStartOf="@+id/newUsernameEditText"
+        app:layout_constraintTop_toBottomOf="@+id/newUsernameEditText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

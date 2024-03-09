@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <targetSelectedWithDropDown>
+      <Target>
+        <type value="QUICK_BOOT_TARGET" />
+        <deviceKey>
+          <Key>
+            <type value="VIRTUAL_DEVICE_PATH" />
+<<<<<<< HEAD
+            <value value="C:\Users\marti\.android\avd\Pixel_5_API_28.avd" />
+=======
+            <value value="C:\Users\gaelr\.android\avd\Pixel_6_Pro_API_28.avd" />
+>>>>>>> origin/rama_perfil
+          </Key>
+        </deviceKey>
+      </Target>
+    </targetSelectedWithDropDown>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <timeTargetWasSelectedWithDropDown value="2024-02-19T07:35:37.224824Z" />
+=======
+    <timeTargetWasSelectedWithDropDown value="2024-02-01T11:19:58.865728900Z" />
+>>>>>>> rama_temas
+=======
+    <timeTargetWasSelectedWithDropDown value="2024-01-15T10:40:59.478102500Z" />
+>>>>>>> origin/rama_perfil
+  </component>
+</project>
