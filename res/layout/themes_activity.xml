@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/cambiarColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Cambiar color de tema"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/color1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Botón para cambiar el color de diseño de la aplicación"
+        android:backgroundTint="@color/colorAmarillo"
+        app:layout_constraintEnd_toStartOf="@+id/color2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cambiarColor"/>
+
+    <Button
+        android:id="@+id/color2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Botón para cambiar el color de diseño de la aplicación"
+        android:backgroundTint="@color/colorRojo"
+        app:layout_constraintEnd_toStartOf="@+id/color3"
+        app:layout_constraintStart_toEndOf="@id/color1"
+        app:layout_constraintTop_toBottomOf="@+id/cambiarColor" />
+
+    <Button
+        android:id="@+id/color3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Botón para cambiar el color de diseño de la aplicación"
+        android:backgroundTint="@color/colorAzul"
+        app:layout_constraintEnd_toStartOf="@+id/color4"
+        app:layout_constraintStart_toEndOf="@id/color2"
+        app:layout_constraintTop_toBottomOf="@+id/cambiarColor" />
+
+    <Button
+        android:id="@+id/color4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Botón para cambiar el color de diseño de la aplicación"
+        android:backgroundTint="@color/colorVerde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/color3"
+        app:layout_constraintTop_toBottomOf="@+id/cambiarColor" />
+
+
+    <Button
+        android:id="@+id/modoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Cambiar a modo oscuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/color1" />
+
+
+    <Button
+        android:id="@+id/modoClaro"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="Cambiar a modo claro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/modoOscuro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

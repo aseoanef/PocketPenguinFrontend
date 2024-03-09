@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.example.pocketpenguin.PPButton
+        android:id="@+id/homebutton"
+        app:layout_constraintDimensionRatio="1:1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@id/homeimage" />
+    <ImageView
+        android:translationZ="2dp"
+        android:id="@+id/homeimage"
+        android:src="@drawable/home"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/homebutton"
+        app:layout_constraintStart_toStartOf="@+id/homebutton"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.example.pocketpenguin.PPButton
+        android:id="@+id/chatbutton"
+        android:layout_width="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/homebutton"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <ImageView
+        android:translationZ="2dp"
+        android:id="@+id/familyimage"
+        android:src="@drawable/family"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chatbutton"
+        app:layout_constraintStart_toStartOf="@+id/chatbutton"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.example.pocketpenguin.PPButton
+        app:layout_constraintDimensionRatio="1:1"
+        android:id="@+id/cartbutton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/chatbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@id/cartimage"/>
+    <ImageView
+        android:translationZ="2dp"
+        android:id="@+id/cartimage"
+        android:src="@drawable/cart"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cartbutton"
+        app:layout_constraintStart_toStartOf="@+id/cartbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <com.example.pocketpenguin.PPButton
+        app:layout_constraintDimensionRatio="1:1"
+        android:id="@+id/profilebutton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/cartbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@id/profileimage"/>
+    <ImageView
+        android:translationZ="2dp"
+        android:id="@+id/profileimage"
+        android:src="@drawable/profile"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profilebutton"
+        app:layout_constraintStart_toStartOf="@+id/profilebutton"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
